@@ -1,0 +1,61 @@
+	/*Cine
+	.carousel-inner_style .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_style .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_style .carousel-item-end.active,
+	.carousel-inner_style .carousel-item-next{
+		transform: translateX(0%);
+	}*/
+
+	/*Gastronomia
+
+	.carousel-inner_gastronomia .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_gastronomia .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_gastronomia .carousel-item-end.active,
+	.carousel-inner_gastronomia .carousel-item-next{
+		transform: translateX(0%);
+	}
+	
+	Musica
+
+	.carousel-inner_musica .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_musica .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_musica .carousel-item-end.active,
+	.carousel-inner_musica .carousel-item-next{
+		transform: translateX(0%);
+	}
+
+	Teatro
+
+	.carousel-inner_teatro .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_teatro .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_teatro .carousel-item-end.active,
+	.carousel-inner_teatro .carousel-item-next{
+		transform: translateX(0%);
+	}*/
+
+	.imgsCard{
+	height: 40vw;
+	}
+	.iconArrow{
+		width: 2rem;
+	}

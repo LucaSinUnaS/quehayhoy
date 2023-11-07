@@ -1,0 +1,77 @@
+:root{
+	--dark: #16191c;
+	--darkx: #1e2126;
+	--light: #ffffff;
+}
+
+body{
+	font-family: 'Spartan', sans-serif;
+	font-weight: 300;
+	color: var(--light);
+}
+
+.bg-dark{
+	background-color: var(--dark) !important;
+}
+
+.bg-dark-x{
+	background-color: var(--darkx);
+}
+
+.form-control, .btm{
+	min-height: 3.125rem;
+	line-height: initial;
+}
+
+.img-1{
+	background-image: url(../images/filtros.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100% !important;
+}
+
+.img-2{
+	background-image: url(../images/pagina.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.scrollable{
+	height: 100px; /* or any value */
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 50px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,0.5); 
+}
+
+.original-text-shadow {
+	transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  color: #ff7e00;
+  font-size: 40px;
+  text-shadow: 1px 1px 0px rgba(255, 0, 0, 1), 2px 2px 0px rgba(252, 127, 0, 1), 3px 3px 0px rgba(252, 240, 0, 1), 4px 4px 0px rgba(0, 252, 40, 1), 5px 5px 0px rgba(9, 0, 252, 1), 6px 6px 0px rgba(252, 0, 205, 1), 7px 7px 0px rgba(207, 0, 252, 1);
+  font-weight: bold;
+}
+.original-text-shadow:hover{
+	transition: 0.3s;
+ 	transform: translate(0, -10px);
+}
+
+.text_bg{
+	background-color:#dee2e6; 
+	box-shadow: 2px 2px 0 rgba(0, 255, 255, 0.4),  4px 4px 0 rgba(255, 0, 255, 0.4);
+}

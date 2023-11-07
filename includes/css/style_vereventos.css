@@ -1,0 +1,640 @@
+@media (min-width: 768px) {
+.main {
+padding-right: 40px;
+padding-left: 220px; /* 180 + 40 */
+}
+}
+
+.text_index{
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar_size{
+	height: 15vh;
+	/*background-color: #04070F;
+	
+	background-color: #c2d5f2;*/
+	transition: 0.5s;
+	/*background-color: #5D19FC;*/
+
+}
+
+.navbar_bg{
+	background-color: #CDFFD8;
+}
+
+.navbar_scrolled{
+	background-color: #CDFFD8;
+}
+
+.btn_color_1{
+	transition: 0.3s;
+	background-color: #19FCB5;
+}
+
+.btn_color_1:hover{
+	transition: 0.3s;
+	background-color: #6dfccf;
+}
+
+.pg_news{
+	background: rgb(148,185,255);
+background: linear-gradient(180deg, rgba(148,185,255,1) 0%, rgba(157,135,255,1) 100%);
+}
+
+@media (max-width: 400px){
+	.main_pg{
+		min-height: 85vh;
+	}
+	.img_logoNav{
+		height: 13vh;
+		width: auto;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 1000px){
+	.main_pg{
+		min-height: 85vh;
+	}
+	.img_logoNav{
+		height: 13vh;
+		width: auto;
+	}
+}
+
+@media (min-width: 1001px){
+	.main_pg{
+		min-height: 85vh;
+	}
+	.img_logoNav{
+		height: 15vh;
+		width: auto;
+	}
+}
+
+@media(min-width:1400px){
+	.navbar_size{
+		height: 10vh;
+	}
+	.img_logoNav{
+		height: 10vh;
+	}
+}
+
+.vertical_center {
+  		min-height: 90%; /* These two lines are counted as one :-)       */
+
+  		display: flex;
+  		align-items: center;
+	}
+
+.img_mainNews{
+	width: 2000px;
+}
+
+.original-text-shadow {
+	transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  color: #ff7e00;
+  font-size: 40px;
+  text-shadow: 1px 1px 0px rgba(255, 0, 0, 1), 2px 2px 0px rgba(252, 127, 0, 1), 3px 3px 0px rgba(252, 240, 0, 1), 4px 4px 0px rgba(0, 252, 40, 1), 5px 5px 0px rgba(9, 0, 252, 1), 6px 6px 0px rgba(252, 0, 205, 1), 7px 7px 0px rgba(207, 0, 252, 1);
+  font-weight: bold;
+}
+.original-text-shadow:hover{
+	transition: 0.3s;
+ 	transform: translate(0, -10px);
+}
+
+.queIndex{
+	color: #ff7e00;
+	text-shadow: 1px 1px 0px rgba(255, 0, 0, 1), 2px 2px 0px rgba(252, 127, 0, 1), 3px 3px 0px rgba(252, 240, 0, 1), 4px 4px 0px rgba(0, 252, 40, 1), 5px 5px 0px rgba(9, 0, 252, 1), 6px 6px 0px rgba(252, 0, 205, 1), 7px 7px 0px rgba(207, 0, 252, 1);
+}
+
+
+.nav-text-shadow {
+	transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.underlineNav::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #FCBB0D;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.underlineNav:hover::after{
+	width: 80%;
+}
+.nav-text-shadow:hover{
+	transition: 0.2s;
+		color: #FCBB0D;
+}
+
+.index_Subtitle{
+	font-size: calc(0.2rem + 1.5vw);
+}
+
+.nav_links ul li:hover::after{
+	width: 100%;
+}
+
+.index_title{
+  	font-size: calc(1.625rem + 4.5vw);
+  	color: #FC3F0D;
+}
+
+.indexQuiero{
+	font-size: calc(1.625rem + 4.5vw);
+}
+
+.changingText{
+	font-size: calc(1rem + 4vw);
+}
+
+.bgFirstScreen {
+  background: rgb(205,255,216);
+background: linear-gradient(180deg, rgba(205,255,216,1) 0%, rgba(148,185,255,1) 100%);
+}
+
+.bgQuiero{
+	/*background-color: #FCC226;*/
+	background-color: #7B84E8;
+}
+
+.box{
+	border-radius: 15px;
+}
+.box_imgs{
+	border-radius: 15px;
+	outline: 4px solid black;
+}
+
+.box_move{
+	transition: 0.3s;
+}
+
+.box_move:hover{
+	transition: 0.3s;
+ 	transform: translate(0, -10px);
+}
+
+.faq_pg{
+	background: rgb(157,135,255);
+background: linear-gradient(180deg, rgba(157,135,255,1) 0%, rgba(219,122,255,1) 100%);
+}
+
+.fontNav{
+	font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+.bgEvents {
+  background-image: linear-gradient(
+  145deg,
+  hsl(258deg 82% 27%) 0%,
+  hsl(258deg 84% 29%) 5%,
+  hsl(258deg 84% 30%) 10%,
+  hsl(258deg 85% 32%) 16%,
+  hsl(258deg 86% 34%) 21%,
+  hsl(258deg 87% 35%) 25%,
+  hsl(258deg 88% 37%) 30%,
+  hsl(258deg 89% 39%) 35%,
+  hsl(258deg 90% 41%) 40%,
+  hsl(258deg 91% 42%) 46%,
+  hsl(258deg 92% 44%) 51%,
+  hsl(258deg 93% 46%) 56%,
+  hsl(258deg 93% 47%) 62%,
+  hsl(258deg 94% 49%) 69%,
+  hsl(258deg 95% 51%) 76%,
+  hsl(258deg 97% 53%) 86%,
+  hsl(258deg 97% 54%) 100%
+);
+}
+
+.inCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pg_eventos{
+	background-color: #94B9FF;
+}
+
+.imgsCard{
+	width: 100%;
+	height: 12vw;
+	object-fit: cover;
+	border-radius: 1rem;
+}
+
+.cardsDiv{
+	height: 100%;
+	width: 100%;
+}
+
+.itemCaro{
+	height: 25vw;
+	width: 20vw;
+}
+
+.lineHeightCat{
+    line-height: 1.6em;
+}
+
+@media(min-width:768px){
+
+	/* Cine */
+	.carousel-inner_style .carousel-item-end.active,
+	.carousel-inner_style .carousel-item-next{
+		transform: translateX(25%);
+	}
+	.carousel-inner_style .carousel-item-start.active,
+	.carousel-inner_style .carousel-item-prev{
+		transform: translateX(-25%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_style .carousel-item.active,
+.carousel-inner_style .carousel-item-next,
+.carousel-inner_style .carousel-item-prev{
+	display: flex;
+}
+.carousel-inner_style .carousel-item-end,
+.carousel-inner_style .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Gastronomia*/
+
+.carousel-inner_gastronomia .carousel-item-end.active,
+	.carousel-inner_gastronomia .carousel-item-next{
+		transform: translateX(25%);
+	}
+	.carousel-inner_gastronomia .carousel-item-start.active,
+	.carousel-inner_gastronomia .carousel-item-prev{
+		transform: translateX(-25%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_gastronomia .carousel-item.active,
+.carousel-inner_gastronomia .carousel-item-next,
+.carousel-inner_gastronomia .carousel-item-prev{
+	display: flex;
+}
+.carousel-inner_gastronomia .carousel-item-end,
+.carousel-inner_gastronomia .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Musica*/
+
+.carousel-inner_musica .carousel-item-end.active,
+	.carousel-inner_musica .carousel-item-next{
+		transform: translateX(25%);
+	}
+	.carousel-inner_musica .carousel-item-start.active,
+	.carousel-inner_musica .carousel-item-prev{
+		transform: translateX(-25%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_musica .carousel-item.active,
+.carousel-inner_musica .carousel-item-next,
+.carousel-inner_musica .carousel-item-prev{
+	display: flex;
+}
+.carousel-inner_musica .carousel-item-end,
+.carousel-inner_musica .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Teatro*/
+
+.carousel-inner_teatro .carousel-item-end.active,
+	.carousel-inner_teatro .carousel-item-next{
+		transform: translateX(25%);
+	}
+	.carousel-inner_teatro .carousel-item-start.active,
+	.carousel-inner_teatro .carousel-item-prev{
+		transform: translateX(-25%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_teatro .carousel-item.active,
+.carousel-inner_teatro .carousel-item-next,
+.carousel-inner_teatro .carousel-item-prev{
+	display: flex;
+}
+.carousel-inner_teatro .carousel-item-end,
+.carousel-inner_teatro .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+
+.iconArrow{
+	width: 3rem;
+}
+
+.lineHeightCat{
+    line-height: 1.35em;
+}
+}
+
+@media(min-width:1400px){
+	/*Cine*/
+.carousel-inner_style .carousel-item-end.active,
+	.carousel-inner_style .carousel-item-next{
+		transform: translateX(16.6%);
+	}
+	.carousel-inner_style .carousel-item-start.active,
+	.carousel-inner_style .carousel-item-prev{
+		transform: translateX(-16.6%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_style .carousel-item-end,
+.carousel-inner_style .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Gastronomia*/
+.carousel-inner_gastronomia .carousel-item-end.active,
+	.carousel-inner_gastronomia .carousel-item-next{
+		transform: translateX(16.6%);
+	}
+	.carousel-inner_gastronomia .carousel-item-start.active,
+	.carousel-inner_gastronomia .carousel-item-prev{
+		transform: translateX(-16.6%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_gastronomia .carousel-item-end,
+.carousel-inner_gastronomia .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+/*Musica*/
+
+.carousel-inner_musica .carousel-item-end.active,
+	.carousel-inner_musica .carousel-item-next{
+		transform: translateX(16.6%);
+	}
+	.carousel-inner_musica .carousel-item-start.active,
+	.carousel-inner_musica .carousel-item-prev{
+		transform: translateX(-16.6%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_musica .carousel-item-end,
+.carousel-inner_musica .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Teatro*/
+
+.carousel-inner_teatro .carousel-item-end.active,
+	.carousel-inner_teatro .carousel-item-next{
+		transform: translateX(16.6%);
+	}
+	.carousel-inner_teatro .carousel-item-start.active,
+	.carousel-inner_teatro .carousel-item-prev{
+		transform: translateX(-16.6%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_teatro .carousel-item-end,
+.carousel-inner_teatro .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+.iconArrow{
+		width: 5rem;
+	}
+}
+
+
+@media(max-width:767px){
+	/*Cine*/
+	.carousel-inner_style .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_style .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_style .carousel-item-end.active,
+	.carousel-inner_style .carousel-item-next{
+		transform: translateX(0%);
+	}
+
+	/*Gastronomia*/
+
+	.carousel-inner_gastronomia .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_gastronomia .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_gastronomia .carousel-item-end.active,
+	.carousel-inner_gastronomia .carousel-item-next{
+		transform: translateX(0%);
+	}
+		
+	/*Musica*/
+
+	.carousel-inner_musica .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_musica .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_musica .carousel-item-end.active,
+	.carousel-inner_musica .carousel-item-next{
+		transform: translateX(0%);
+	}
+
+	/*Teatro*/
+
+	.carousel-inner_teatro .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_teatro .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_teatro .carousel-item-end.active,
+	.carousel-inner_teatro .carousel-item-next{
+		transform: translateX(0%);
+	}
+
+	.imgsCard{
+	height: 40vw;
+	}
+	.iconArrow{
+		width: 2rem;
+	}
+}
+
+.buttonCarousel_L{
+width:5%; height: 100%;
+border-radius: 1rem;
+}
+
+.buttonCarousel_R{
+width:5%; height: 100%;
+border-radius: 1rem;
+}
+
+.buttonCarousel:hover{
+	background-color: black;
+}
+
+.bgCarousels{
+	background-color: #687D6D;
+}
+
+.imgs_event{
+	object-fit: cover;
+}
+
+.truncateText{
+	overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-line-clamp: 3; /* start showing ellipsis when 3rd line is reached */
+  white-space: pre-wrap; /* let the text wrap preserving spaces */
+}
+
+.truncateText_Carousel{
+	overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-line-clamp: 1; /* start showing ellipsis when 3rd line is reached */
+  white-space: pre-wrap; /* let the text wrap preserving spaces */
+}
+
+.card{
+	transition: 0.2s;
+	margin: 0 .5em;
+	border: none;
+	background-color: #F7F7F7;
+	border-radius: 1rem;
+}
+
+.card:hover{
+	transition: 0.2s;
+	background-color: #EDEDED;
+}
+
+.bgPost{
+	background-color: #F7F7F7;
+	border-radius: 1rem;
+	border: 1rem solid black;
+}
+
+.bgPost:hover{
+	background-color: #EDEDED;
+}
+
+.text_subtitle{
+	font-family: 'Supreme', sans-serif;
+}
+
+.linksFiltros,.linksFiltros:link,.linksFiltros:visited,.linksFiltros:focus,.linksFiltros:active{
+    color: #495057;
+    text-decoration: none;
+}
+.linksFiltros:hover{
+	color:#6c757d;
+	text-decoration: none;
+}
+
+.bg_Cine{
+	background-color: #e03444;
+}
+.bg_Música{
+	background-color: #106cfc;
+}
+.bg_Deportes{
+	background-color: #208454;
+}
+.bg_Teatro{
+	background-color: #ff7014;
+}
+.bg_Gastronomía{
+	background-color: #6814f4;
+	color: white;
+}
+.bg_Carnaval{
+	background-color: #7044c4;
+	color: white;
+}
+.bg_Cursos{
+	background-color: #d83484;
+}
+.bg_Noche{
+	background-color: #383c44;
+	color: white;
+}
+.bg_Ferias{
+	background-color: #ffc404;
+}
+.bg_Encuentros{
+	background-color: #28cc94;
+}
+.bg_Espacios_Públicos{
+	background-color: #10ccf4;
+}
+.bg_Exposiciones{
+	background-color: #082c64;
+	color: white;
+}
+.bg_Museos{
+	background-color: #105434;
+}
+.bg_Otro{
+	background-color: #b0b4bc;
+}
+
+.centerVerticalContainer{
+	position: relative;
+	height: 100%;
+}
+
+
+.centerVerticalChild{
+	margin: 0;
+position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.noscroll{
+	height: 100%;
+	overflow-y: hidden;
+}
+
+.randomBtn{
+	transition: 0.2s;
+	background-color: #dee2e6;
+}
+
+.randomBtn:hover{
+	transition: 0.2s;
+	background-color: #e9ecef;
+}

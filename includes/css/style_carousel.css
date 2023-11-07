@@ -1,0 +1,230 @@
+@media(min-width:768px){
+
+	/* Cine */
+	.carousel-inner_style .carousel-item-end.active,
+	.carousel-inner_style .carousel-item-next{
+		transform: translateX(25%);
+	}
+	.carousel-inner_style .carousel-item-start.active,
+	.carousel-inner_style .carousel-item-prev{
+		transform: translateX(-25%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_style .carousel-item.active,
+.carousel-inner_style .carousel-item-next,
+.carousel-inner_style .carousel-item-prev{
+	display: flex;
+}
+.carousel-inner_style .carousel-item-end,
+.carousel-inner_style .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Gastronomia*/
+
+.carousel-inner_gastronomia .carousel-item-end.active,
+	.carousel-inner_gastronomia .carousel-item-next{
+		transform: translateX(25%);
+	}
+	.carousel-inner_gastronomia .carousel-item-start.active,
+	.carousel-inner_gastronomia .carousel-item-prev{
+		transform: translateX(-25%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_gastronomia .carousel-item.active,
+.carousel-inner_gastronomia .carousel-item-next,
+.carousel-inner_gastronomia .carousel-item-prev{
+	display: flex;
+}
+.carousel-inner_gastronomia .carousel-item-end,
+.carousel-inner_gastronomia .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Musica*/
+
+.carousel-inner_musica .carousel-item-end.active,
+	.carousel-inner_musica .carousel-item-next{
+		transform: translateX(25%);
+	}
+	.carousel-inner_musica .carousel-item-start.active,
+	.carousel-inner_musica .carousel-item-prev{
+		transform: translateX(-25%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_musica .carousel-item.active,
+.carousel-inner_musica .carousel-item-next,
+.carousel-inner_musica .carousel-item-prev{
+	display: flex;
+}
+.carousel-inner_musica .carousel-item-end,
+.carousel-inner_musica .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Teatro*/
+
+.carousel-inner_teatro .carousel-item-end.active,
+	.carousel-inner_teatro .carousel-item-next{
+		transform: translateX(25%);
+	}
+	.carousel-inner_teatro .carousel-item-start.active,
+	.carousel-inner_teatro .carousel-item-prev{
+		transform: translateX(-25%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_teatro .carousel-item.active,
+.carousel-inner_teatro .carousel-item-next,
+.carousel-inner_teatro .carousel-item-prev{
+	display: flex;
+}
+.carousel-inner_teatro .carousel-item-end,
+.carousel-inner_teatro .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+
+.iconArrow{
+	width: 3rem;
+}
+}
+
+@media(min-width:1400px){
+	/*Cine*/
+.carousel-inner_style .carousel-item-end.active,
+	.carousel-inner_style .carousel-item-next{
+		transform: translateX(16.6%);
+	}
+	.carousel-inner_style .carousel-item-start.active,
+	.carousel-inner_style .carousel-item-prev{
+		transform: translateX(-16.6%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_style .carousel-item-end,
+.carousel-inner_style .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Gastronomia*/
+.carousel-inner_gastronomia .carousel-item-end.active,
+	.carousel-inner_gastronomia .carousel-item-next{
+		transform: translateX(16.6%);
+	}
+	.carousel-inner_gastronomia .carousel-item-start.active,
+	.carousel-inner_gastronomia .carousel-item-prev{
+		transform: translateX(-16.6%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_gastronomia .carousel-item-end,
+.carousel-inner_gastronomia .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+/*Musica*/
+
+.carousel-inner_musica .carousel-item-end.active,
+	.carousel-inner_musica .carousel-item-next{
+		transform: translateX(16.6%);
+	}
+	.carousel-inner_musica .carousel-item-start.active,
+	.carousel-inner_musica .carousel-item-prev{
+		transform: translateX(-16.6%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_musica .carousel-item-end,
+.carousel-inner_musica .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+/*Teatro*/
+
+.carousel-inner_teatro .carousel-item-end.active,
+	.carousel-inner_teatro .carousel-item-next{
+		transform: translateX(16.6%);
+	}
+	.carousel-inner_teatro .carousel-item-start.active,
+	.carousel-inner_teatro .carousel-item-prev{
+		transform: translateX(-16.6%);
+		transition:  1s ease-in, opacity 1s ease-out
+	}
+	.carousel-inner_teatro .carousel-item-end,
+.carousel-inner_teatro .carousel-item-start{
+	transform: translateX(0);
+	transition:  1s ease-in, opacity 1s ease-out
+}
+
+.iconArrow{
+		width: 5rem;
+	}
+}
+
+
+@media(max-width:767px){
+	/*Cine*/
+	.carousel-inner_style .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_style .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_style .carousel-item-end.active,
+	.carousel-inner_style .carousel-item-next{
+		transform: translateX(0%);
+	}
+
+	/*Gastronomia*/
+
+	.carousel-inner_gastronomia .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_gastronomia .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_gastronomia .carousel-item-end.active,
+	.carousel-inner_gastronomia .carousel-item-next{
+		transform: translateX(0%);
+	}
+		
+	/*Musica*/
+
+	.carousel-inner_musica .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_musica .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_musica .carousel-item-end.active,
+	.carousel-inner_musica .carousel-item-next{
+		transform: translateX(0%);
+	}
+
+	/*Teatro*/
+
+	.carousel-inner_teatro .carousel-item>div{
+		display: none;
+	}
+	.carousel-inner_teatro .carousel-item>div:first-child{
+		display: block;
+	}
+
+	.carousel-inner_teatro .carousel-item-end.active,
+	.carousel-inner_teatro .carousel-item-next{
+		transform: translateX(0%);
+	}
+
+	.imgsCard{
+	height: 40vw;
+	}
+	.iconArrow{
+		width: 2rem;
+	}
+}
